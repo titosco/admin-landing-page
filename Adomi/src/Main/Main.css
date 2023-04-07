@@ -1,0 +1,24 @@
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #e1dfdf;
+    min-height: 100vh;
+    --dm-bg: #111
+}
+.main.dark{
+    background-color: var(--dm-bg);
+    color: white;
+}
+
+
+
+
+
+
+@media screen and (max-width: 890px){
+    .main{
+        min-height: 100rem;
+    }
+}
